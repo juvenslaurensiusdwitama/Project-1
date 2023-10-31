@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 200px;
+    min-width: 300px;
+    background-color: rgb(228, 66, 66);
+    border-radius: 20px;
+    gap: 10px;
+}
+.card h1{
+    font-size: 25px;
+    color: white;
+}
+.input-button{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(170, 14, 14);
+    padding: 10px;
+    border-radius: 25px;
+}
+.input-button input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.input-button input::placeholder,
+.input-button input[type='text']{
+    color: white;
+}
+.input-button button{
+    flex: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(248, 66, 46);
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.taskList{
+    display: flex;
+    flex-direction: column;
+}
+.taskList input{
+    border: none;
+}
+.taskList p{
+    color: white;
+}
+.task{
+    display: flex;
+    gap: 8px;
+}
+/* .checked{
+    text-decoration: line-through;
+} */
+
