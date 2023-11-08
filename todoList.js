@@ -17,3 +17,6 @@ submit.addEventListener('click', () =>{
     }
     textInput.value = ''
 })
+
+
+
