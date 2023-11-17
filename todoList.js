@@ -2,6 +2,7 @@ const textInput = document.querySelector('.input-button input')
 const submit = document.querySelector('.input-button button')
 const taskList = document.querySelector('.taskList')
 const card = document.querySelector('.card')
+const task = document.querySelector('.task')
 submit.addEventListener('click', () =>{
     if(textInput.value === ''){
         alert('There is no task added!')
