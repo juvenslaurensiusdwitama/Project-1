@@ -21,6 +21,7 @@ submit.addEventListener('click', () =>{
         p.innerHTML = textInput.value
         div1.append(cBox,p)
         div2.append(x)
+        cBox.classList.add('check')
         div1.classList.add('task')
         taskDiv.append(div1,div2)
         taskDiv.classList.add('sb')
@@ -32,6 +33,14 @@ submit.addEventListener('click', () =>{
 card.addEventListener('click', e =>{
     if(e.target.className == 'x'){
         e.target.parentElement.parentElement.remove()
+    }
+    else if(e.target.className == 'check'){
+        e.target.nextSibling.classList.toggle('checked')
+        if(e.target.nextSibling.className == 'checked'){
+            e.target.nextSibling.style.color = 'red'
+        }else{
+            e.target.nextSibling.style.color = 'white'
+        }
     }
 })
 
