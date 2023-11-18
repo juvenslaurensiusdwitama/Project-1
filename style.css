@@ -71,6 +71,19 @@ body{
     display: flex;
     gap: 8px;
 }
+
+.sb{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.x{
+    color: white;
+}
+.x:hover{
+    color: rgb(170, 0, 0);
+    cursor: pointer;
+}
 /* .checked{
     text-decoration: line-through;
 } */
