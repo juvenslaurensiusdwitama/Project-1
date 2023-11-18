@@ -81,10 +81,14 @@ body{
     color: white;
 }
 .x:hover{
-    color: rgb(170, 0, 0);
+    color: rgba(185, 0, 0, 0.589);
     cursor: pointer;
 }
 .checked{
     text-decoration: line-through;
+}
+
+.check{
+    accent-color: rgb(0, 89, 223);
 }
 

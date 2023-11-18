@@ -37,7 +37,7 @@ card.addEventListener('click', e =>{
     else if(e.target.className == 'check'){
         e.target.nextSibling.classList.toggle('checked')
         if(e.target.nextSibling.className == 'checked'){
-            e.target.nextSibling.style.color = 'red'
+            e.target.nextSibling.style.color = 'rgba(185, 0, 0, 0.8)'
         }else{
             e.target.nextSibling.style.color = 'white'
         }
